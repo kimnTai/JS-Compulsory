@@ -1,0 +1,19 @@
+{
+  "name": "vegetable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^2.7.10"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
