@@ -1,5 +1,5 @@
 import removeAndCheckbox from "./components/removeAndCheckbox";
-import removeAll from "./components/removeAll";
+import removeCompleted from "./components/removeCompleted";
 import changeTab from "./components/changeTab";
 import addTodo from "./components/addTodo";
 
@@ -7,7 +7,7 @@ function init(): void {
   const todoData: ITodoData[] = [];
   addTodo(todoData);
   changeTab(todoData);
-  removeAll(todoData);
+  removeCompleted(todoData);
   removeAndCheckbox(todoData);
 }
 init();
